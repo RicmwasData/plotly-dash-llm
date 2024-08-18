@@ -1,0 +1,245 @@
+
+body {
+  background-color: #192444;
+  margin: 5%;
+}
+
+#title1 {
+  text-align: center;
+}
+
+#title2 {
+  text-align: center;
+}
+
+#title3 {
+  text-align: center;
+}
+
+.loading-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.spinner {
+  width: 10px;
+  height: 10px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-indicator p {
+  margin-top: 10px;
+  color: #333;
+}
+
+.chat-input-container {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-input {
+  flex-grow: 1;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 25px 0 0 25px;
+}
+
+.chat-input::placeholder {
+  color: #aaa;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 25px 25px 0;
+  transition: background-color 0.3s;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+
+.output-container {
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.output-question, .output-query, .output-answer {
+  margin: 10px 0;
+}
+
+.output-question {
+  font-weight: bold;
+  color: #f0eeee;
+}
+
+.output-query {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 4px solid #007bff;
+  color: #110e0e;
+}
+
+.output-answer {
+  font-style: italic;
+  color: #ffffff;
+}
+
+
+.create_container2 {
+  align-items: center;
+  border-radius: 15px;
+  background-color: #1f2c56;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px 2px #1f2c56;
+}
+
+.blue-button {
+  background-color: #007bff; /* Bootstrap primary blue color */
+  color: white; /* Text color */
+  border: none; /* Optional: remove the border */
+}
+
+.blue-button { 
+  background-color: #007bff; /* Bootstrap primary blue color */
+  color: white; /* Text color */
+  border: none; /* Optional: remove the border */
+  height: 100%; /* Ensures the button height matches the input */
+}
+
+.blue-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.dbc .Select-placeholder {
+  color: var(--bs-secondary) !important;
+  background-color: var(--bs-body-bg) !important;
+}
+
+.Select-control {
+  background-color: #1f2c56 !important;
+  color:white;
+}
+
+.Select-menu-outer {
+  background-color:  #1c2b5e;
+  color: white;
+  scrollbar-width: thin;
+  scrollbar-color:  #1f2c56 #e0e0e0;
+}
+
+.Select-value-label {
+  color: white !important;
+}
+
+.dcc_compon {
+  margin: 0 auto;
+  padding: 5px;
+  width: calc(100%-40px);
+}
+
+.fix_label {
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100%-40px);
+}
+
+.container-display {
+  display: flex;
+}
+
+#header {
+  align-items: center;
+}
+
+.flex-display {
+  display: flex;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rc-slider-track {
+  background-color: red;
+}
+
+.rc-slider-dot-active {
+  border-color: red;
+  border: solid 2px red;
+}
+
+.rc-slider-handle {
+  background-color: red;
+  border-color: red;
+}
+
+.rc.slider-handle:hover {
+  border-color: red;
+}
+
+.rc.slider-handle-active:active {
+  border-color: red;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f2c56 !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #192444;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white !important;
+}
+
+
+
+
