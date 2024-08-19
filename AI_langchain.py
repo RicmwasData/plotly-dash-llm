@@ -32,7 +32,7 @@ full_table_path = 'bigquery-public-data.iowa_liquor_sales.sales'
 
 
 # Initialize the Ai model 
-api_key='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'
+api_key='claude_api_key'
 llm = ChatAnthropic(model="claude-3-5-sonnet-20240620",
                      api_key=api_key,
                      temperature=0)
