@@ -18,9 +18,9 @@ The source code for this project is available on my GitHub repository:
 - [GitHub Repository](https://github.com/RicmwasData/plotly-dash-llm)
 
 ### Video Demonstration
-```
+
 [![Watch the video](plotlydash.png)](https://youtu.be/w2r_2F1C2gY)
-```
+
 
 *(Replace the URL with the link to your video)*
 
